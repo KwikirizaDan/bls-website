@@ -7,7 +7,7 @@ import ServiceSix from "@/components/services/ServiceSix";
 import PricingFour from "@/components/pricing/PricingFour";
 import TestimonialsThree from "@/components/testimonials/TestimonialsThree";
 import BrandTwo from "@/components/brand/BrandTwo";
-
+import CtaFour from "@/components/cta/CtaFour";
 
 export default function Home() {
     return (
@@ -75,8 +75,10 @@ export default function Home() {
             <FeatureOne />
             <FeatureTwo />
             <ServiceSix />
+          
             <BrandTwo />
             <TestimonialsThree />
+            
             <FooterTwo />
             <BackToTop />
         </div>
