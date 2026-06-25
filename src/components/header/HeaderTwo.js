@@ -44,7 +44,7 @@ function HeaderTwo() {
                                 </Link>
                                 <Nav />
                                 <div className="button-area-right-header">
-                                    <a href="/free-consultation" className="rts-btn btn-border">
+                                    <a href="/free-consultation" className="rts-btn btn-border" style={{ borderColor: 'var(--color-primary)', color: '#fff' }}>
                                         Get a Free Consultation
                                         <ReactSVG src="/assets/images/service/icons/13.svg" alt="arrow" />
                                     </a>
@@ -71,7 +71,7 @@ function HeaderTwo() {
                                 </Link>
                                 <Nav />
                                 <div className="button-area-right-header">
-                                    <a href="/free-consultation" className="rts-btn btn-border">
+                                    <a href="/free-consultation" className="rts-btn btn-border" style={{ borderColor: 'var(--color-primary)', color: '#fff' }}>
                                         Get a Free Consultation
                                         <ReactSVG src="/assets/images/service/icons/13.svg" alt="arrow" />
                                     </a>

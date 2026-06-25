@@ -20,7 +20,7 @@ function ServiceFive() {
                 <div
                 className="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"
                 >
-                <a href="/cyber-security-service" className="single-service-area-wrapper">
+                <a href="/service" className="single-service-area-wrapper">
                     <div className="icon">
                     <img src="assets/images/service/icons/22.svg" alt="service" />
                     </div>
@@ -36,7 +36,7 @@ function ServiceFive() {
                 <div
                 className="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000"
                 >
-                <a href="/cyber-security-service" className="single-service-area-wrapper">
+                <a href="/service" className="single-service-area-wrapper">
                     <div className="icon">
                     <img src="assets/images/service/icons/23.svg" alt="service" />
                     </div>
@@ -52,7 +52,7 @@ function ServiceFive() {
                 <div
                 className="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000"
                 >
-                <a href="/cyber-security-service" className="single-service-area-wrapper">
+                <a href="/service" className="single-service-area-wrapper">
                     <div className="icon">
                     <img src="assets/images/service/icons/24.svg" alt="service" />
                     </div>
@@ -68,7 +68,7 @@ function ServiceFive() {
                 <div
                 className="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"
                 >
-                <a href="/cyber-security-service" className="single-service-area-wrapper">
+                <a href="/service" className="single-service-area-wrapper">
                     <div className="icon">
                     <img src="assets/images/service/icons/25.svg" alt="service" />
                     </div>
@@ -84,7 +84,7 @@ function ServiceFive() {
                 <div
                 className="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000"
                 >
-                <a href="/cyber-security-service" className="single-service-area-wrapper">
+                <a href="/service" className="single-service-area-wrapper">
                     <div className="icon">
                     <img src="assets/images/service/icons/26.svg" alt="service" />
                     </div>
@@ -100,7 +100,7 @@ function ServiceFive() {
                 <div
                 className="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000"
                 >
-                <a href="/cyber-security-service" className="single-service-area-wrapper">
+                <a href="/service" className="single-service-area-wrapper">
                     <div className="icon">
                     <img src="assets/images/service/icons/27.svg" alt="service" />
                     </div>
@@ -116,7 +116,7 @@ function ServiceFive() {
                 <div
                 className="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"
                 >
-                <a href="/cyber-security-service" className="single-service-area-wrapper">
+                <a href="/service" className="single-service-area-wrapper">
                     <div className="icon">
                     <img src="assets/images/service/icons/28.svg" alt="service" />
                     </div>
@@ -132,7 +132,7 @@ function ServiceFive() {
                 <div
                 className="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000"
                 >
-                <a href="/cyber-security-service" className="single-service-area-wrapper">
+                <a href="/service" className="single-service-area-wrapper">
                     <div className="icon">
                     <img src="assets/images/service/icons/29.svg" alt="service" />
                     </div>
@@ -148,7 +148,7 @@ function ServiceFive() {
                 <div
                 className="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000"
                 >
-                <a href="/cyber-security-service" className="single-service-area-wrapper">
+                <a href="/service" className="single-service-area-wrapper">
                     <div className="icon">
                     <img src="assets/images/service/icons/30.svg" alt="service" />
                     </div>

@@ -7,7 +7,7 @@ import ServiceSix from "@/components/services/ServiceSix";
 import PricingFour from "@/components/pricing/PricingFour";
 import TestimonialsThree from "@/components/testimonials/TestimonialsThree";
 import BrandTwo from "@/components/brand/BrandTwo";
-import CtaFour from "@/components/cta/CtaFour";
+
 
 export default function Home() {
     return (
@@ -15,13 +15,13 @@ export default function Home() {
             <HeaderTwo />
 
             {/* about banner area start */}
-            <div className="about-banner-area-bg jarallax" style={{ backgroundImage: 'url(assets/images/about/01.webp)' }}>
+            <div className="about-banner-area-bg jarallax" style={{ backgroundImage: 'url(assets/images/about/01.jpeg)' }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="banner-content" style={{ padding: '200px 0', textAlign: 'center', color: '#fff' }}>
-                                <h1 className="title" style={{ fontSize: '48px', fontWeight: 700, marginBottom: '20px' }}>Built in Kampala. Built for Africa.</h1>
-                                <p className="disc" style={{ fontSize: '18px', maxWidth: '800px', margin: '0 auto', lineHeight: 1.8 }}>
+                                <h1 className="title" style={{ fontSize: '48px', fontWeight: 700, marginBottom: '20px', color: '#fff' }}>Built in Kampala. Built for Africa.</h1>
+                                <p className="disc" style={{ fontSize: '18px', maxWidth: '800px', margin: '0 auto', lineHeight: 1.8, color: '#fff' }}>
                                     Binary Labs Solutions is an ICT company headquartered in Mpererwe Kawempe, Kampala, Uganda. We exist to close the gap between world-class technology and the East African businesses that deserve it.
                                 </p>
                             </div>
@@ -75,10 +75,8 @@ export default function Home() {
             <FeatureOne />
             <FeatureTwo />
             <ServiceSix />
-            <PricingFour />
             <BrandTwo />
             <TestimonialsThree />
-            <CtaFour />
             <FooterTwo />
             <BackToTop />
         </div>

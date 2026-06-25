@@ -1,17 +1,48 @@
 "use client"
-import React, { useEffect } from 'react';
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from 'react';
+
+const services = [
+  {
+    title: 'Web Design & Development',
+    description: 'We craft fast, responsive, and visually compelling websites and web applications - from landing pages to full SaaS platforms. Built on modern frameworks, optimized for performance, and tailored to your brand.',
+    image: 'assets/images/case-studies/05.webp',
+    delay: '100',
+  },
+  {
+    title: 'Mobile App Development',
+    description: 'Native and cross-platform mobile experiences for Android and iOS. Whether it\'s a customer-facing app or an internal operations tool, we build apps that work - even on low-bandwidth connections across East Africa.',
+    image: 'assets/images/case-studies/06.webp',
+    delay: '300',
+  },
+  {
+    title: 'Database Design & Development',
+    description: 'Clean, scalable database architecture from the ground up. We design relational schemas, optimize queries, handle migrations, and build the data layer your business can grow on for years.',
+    image: 'assets/images/case-studies/07.webp',
+    delay: '500',
+  },
+  {
+    title: 'Data Analysis & Visualisation',
+    description: 'Turn raw data into decisions. We build interactive dashboards, automate reports, and create visualisations that make complex data immediately understandable to your team and stakeholders.',
+    image: 'assets/images/case-studies/08.webp',
+    delay: '100',
+  },
+  {
+    title: 'Cyber Security',
+    description: 'Protect your digital infrastructure with robust security assessments, threat monitoring, and incident response. We help safeguard your systems, data, and operations against evolving cyber threats.',
+    image: 'assets/images/case-studies/09.webp',
+    delay: '300',
+  },
+  {
+    title: 'IT Training',
+    description: 'Empower your team with practical, hands-on training in modern technologies - from web development and database management to data analysis and cybersecurity best practices.',
+    image: 'assets/images/case-studies/10.webp',
+    delay: '500',
+  },
+]
+
 function ServiceSix() {
-    useEffect(() => {
-        AOS.init({
-            disableMutationObserver: true,
-            once: true,
-        });
-    }, []);
     return (
         <>
-            {/* service area start */}
             <div className="gap-service-area rts-section-gap bg-light">
                 <div className="container">
                     <div className="row">
@@ -19,181 +50,31 @@ function ServiceSix() {
                             <div className="title-area-center-inner-with-sub">
                                 <span>Our services</span>
                                 <h2 className="title">Cutting-edge IT Solutions</h2>
-                                <p className="disc">
-                                    Offers a unified platform that fosters innovation while providing
-                                    end-to-end data management. See how we help your team solve
-                                    today’s biggest challenges.
-                                </p>
                             </div>
                         </div>
                     </div>
                     <div className="row g-5 mt--50">
-                        <div
-                            className="col-xl-3 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"
-                        >
-                            <div className="single-service-area-4 in-about-page">
-                                <div className="icon">
-                                    <img src="assets/images/service/icons/39.svg" alt="service" />
-                                </div>
-                                <div className="title-area">
-                                    <a href="/service-single">
-                                        <h3 className="title animated fadeIn">IT Strategies</h3>
-                                        <img
-                                            className="injectable"
-                                            src="assets/images/service/icons/21.svg"
-                                            alt="icosn"
-                                        />
-                                    </a>
+                        {services.map((service, index) => (
+                            <div
+                                key={index}
+                                className="col-lg-4 col-md-6 col-sm-12"
+                            >
+                                <div className="single-service-area-4 in-about-page">
+                                    <div className="icon">
+                                        <img src={service.image} alt={service.title} />
+                                    </div>
+                                    <div className="title-area">
+                                        <a href="/service">
+                                            <h3 className="title animated fadeIn">{service.title}</h3>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div
-                            className="col-xl-3 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000"
-                        >
-                            <div className="single-service-area-4 in-about-page">
-                                <div className="icon">
-                                    <img src="assets/images/service/icons/40.svg" alt="service" />
-                                </div>
-                                <div className="title-area">
-                                    <a href="/service-single">
-                                        <h3 className="title animated fadeIn">Cloud Migration</h3>
-                                        <img
-                                            className="injectable"
-                                            src="assets/images/service/icons/21.svg"
-                                            alt="icosn"
-                                        />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            className="col-xl-3 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000"
-                        >
-                            <div className="single-service-area-4 in-about-page">
-                                <div className="icon">
-                                    <img src="assets/images/service/icons/35.svg" alt="service" />
-                                </div>
-                                <div className="title-area">
-                                    <a href="/service-single">
-                                        <h3 className="title animated fadeIn">Cyber Security</h3>
-                                        <img
-                                            className="injectable"
-                                            src="assets/images/service/icons/21.svg"
-                                            alt="icosn"
-                                        />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            className="col-xl-3 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000"
-                        >
-                            <div className="single-service-area-4 in-about-page">
-                                <div className="icon">
-                                    <img src="assets/images/service/icons/36.svg" alt="service" />
-                                </div>
-                                <div className="title-area">
-                                    <a href="/service-single">
-                                        <h3 className="title animated fadeIn">Development</h3>
-                                        <img
-                                            className="injectable"
-                                            src="assets/images/service/icons/21.svg"
-                                            alt="icosn"
-                                        />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            className="col-xl-3 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"
-                        >
-                            <div className="single-service-area-4 in-about-page">
-                                <div className="icon">
-                                    <img src="assets/images/service/icons/37.svg" alt="service" />
-                                </div>
-                                <div className="title-area">
-                                    <a href="/service-single">
-                                        <h3 className="title animated fadeIn">It Service</h3>
-                                        <img
-                                            className="injectable"
-                                            src="assets/images/service/icons/21.svg"
-                                            alt="icosn"
-                                        />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            className="col-xl-3 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000"
-                        >
-                            <div className="single-service-area-4 in-about-page">
-                                <div className="icon">
-                                    <img src="assets/images/service/icons/38.svg" alt="service" />
-                                </div>
-                                <div className="title-area">
-                                    <a href="/service-single">
-                                        <h3 className="title animated fadeIn">Design Service</h3>
-                                        <img
-                                            className="injectable"
-                                            src="assets/images/service/icons/21.svg"
-                                            alt="icosn"
-                                        />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            className="col-xl-3 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000"
-                        >
-                            <div className="single-service-area-4 in-about-page">
-                                <div className="icon">
-                                    <img src="assets/images/service/icons/39.svg" alt="service" />
-                                </div>
-                                <div className="title-area">
-                                    <a href="/service-single">
-                                        <h3 className="title animated fadeIn">Writing</h3>
-                                        <img
-                                            className="injectable"
-                                            src="assets/images/service/icons/21.svg"
-                                            alt="icosn"
-                                        />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            className="col-xl-3 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000"
-                        >
-                            <div className="single-service-area-4 in-about-page">
-                                <div className="icon">
-                                    <img src="assets/images/service/icons/40.svg" alt="service" />
-                                </div>
-                                <div className="title-area">
-                                    <a href="/service-single">
-                                        <h3 className="title animated fadeIn">Cloud Migratio</h3>
-                                        <img
-                                            className="injectable"
-                                            src="assets/images/service/icons/21.svg"
-                                            alt="icosn"
-                                        />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-12 d-flex justify-content-center">
-                            <a href="service.html" className="rts-btn btn-border btn-bold mt--80">
-                                View all solutions
-                                <img src="assets/images/service/icons/13.svg" alt="arrow" />
-                            </a>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </div>
-            {/* service area end */}
         </>
-
     )
 }
 

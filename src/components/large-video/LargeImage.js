@@ -3,7 +3,7 @@ import React from "react";
 
 function LargeImage() {
     const styling = {
-        backgroundImage: `url(assets/images/service/05.webp)`,
+        backgroundImage: `url(assets/images/service/05.jpeg)`,
     };
     return (
         <>

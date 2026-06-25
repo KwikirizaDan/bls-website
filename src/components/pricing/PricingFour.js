@@ -8,14 +8,7 @@ function PricingFour() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="text-center-title-bg-white">
-                                <h2 className="title">Flexibility, Affordable Pricing</h2>
-                                <p>
-                                    Offers a unified platform that fosters innovation while providing
-                                    end-to-end data management. See how we help your team solve
-                                    today’s biggest challenges.
-                                </p>
-                            </div>
+
                         </div>
                     </div>
                     <div className="row g-0 mt--80">

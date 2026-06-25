@@ -12677,7 +12677,7 @@ li.has-dropdown:hover .submenu {
   left: 0%;
   width: 200px;
   height: 200px;
-  background-color: #3534FF;
+  background-color: var(--color-primary);
   border-color: transparent;
   border-radius: 50%;
   transform: translate(-10px, -70px) scale(0.1);
@@ -13596,7 +13596,7 @@ li.has-dropdown:hover .submenu {
 }
 
 .about-banner-area-bg {
-  background-image: url(../images/about/01.webp);
+  background-image: url(../images/about/01.jpeg);
   height: 750px !important;
   background-size: cover;
   background-repeat: no-repeat;
@@ -16800,7 +16800,9 @@ li.has-dropdown:hover .submenu {
   transition: 0.3s;
 }
 .single-service-style-two:hover {
-  background: #3534FF;
+  background: var(--color-primary);
+
+  
   border-color: #2A2ACC;
 }
 .single-service-style-two:hover * {
@@ -17109,7 +17111,9 @@ li.has-dropdown:hover .submenu {
 .single-service-list .icon {
   height: 96px;
   width: 96px;
-  background: #3534FF;
+  background: var(--color-primary);
+
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17146,7 +17150,7 @@ li.has-dropdown:hover .submenu {
 }
 
 .large-image-area-bg-service-page {
-  background-image: url(../images/service/05.webp);
+  background-image: url(../images/service/05.jpeg);
   height: 750px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17737,7 +17741,7 @@ li.has-dropdown:hover .submenu {
 
 .contact-page-banner {
   height: 450px !important;
-  background-image: url(/assets/images/contact/02.webp);
+  background-image: url(/assets/images/contact/02.jpeg);
 }
 @media only screen and (max-width: 575px) {
   .contact-page-banner {

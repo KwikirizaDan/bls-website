@@ -70,27 +70,8 @@ function ContactOne() {
                                         <div className="col-lg-6">
                                             <input type="tel" className="form-control" placeholder="Phone Number" style={{padding: '12px 15px', borderRadius: 8, border: '1px solid #ddd'}} />
                                         </div>
-                                        <div className="col-lg-6">
-                                            <select className="form-control" style={{padding: '12px 15px', borderRadius: 8, border: '1px solid #ddd', width: '100%'}}>
-                                                <option value="">Service Needed</option>
-                                                <option value="web-development">Web Development</option>
-                                                <option value="mobile-app">Mobile App</option>
-                                                <option value="database">Database</option>
-                                                <option value="data-analysis">Data Analysis</option>
-                                                <option value="other">Other</option>
-                                            </select>
-                                        </div>
                                         <div className="col-lg-12">
                                             <textarea className="form-control" rows={5} placeholder="Project Description *" required style={{padding: '12px 15px', borderRadius: 8, border: '1px solid #ddd'}}></textarea>
-                                        </div>
-                                        <div className="col-lg-6">
-                                            <select className="form-control" style={{padding: '12px 15px', borderRadius: 8, border: '1px solid #ddd', width: '100%'}}>
-                                                <option value="">Budget Range</option>
-                                                <option value="<1m">&lt; UGX 1M</option>
-                                                <option value="1m-5m">UGX 1M - 5M</option>
-                                                <option value="5m-20m">UGX 5M - 20M</option>
-                                                <option value="20m+">UGX 20M+</option>
-                                            </select>
                                         </div>
                                         <div className="col-lg-12">
                                             <button type="submit" className="rts-btn btn-primary" style={{border: 'none', cursor: 'pointer'}}>
